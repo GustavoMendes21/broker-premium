@@ -1,0 +1,25 @@
+aside {
+  width: 280px;
+  height: 100%;
+  grid-area: sidenav;
+
+  nav {
+    a {
+      display: flex;
+      align-items: center;
+
+      height: 5.62rem;
+
+      padding: 0 1rem;
+
+      border-bottom: 2px solid var(--gray-background);
+
+      p {
+        font-size: .8rem;
+        color: var(--gray-400);
+        margin-left: .2rem;
+        flex-grow: 1;
+      }
+    }
+  }
+}

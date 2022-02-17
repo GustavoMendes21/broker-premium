@@ -1,0 +1,17 @@
+main {
+  background-color: var(--gray-background);
+  grid-area: main;
+  padding: 2.25rem 1.25rem;
+  color: var(--purple-400);
+  
+  
+  > .title {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .list-products-container {
+    margin-top: 1.5rem;
+  }
+}
+

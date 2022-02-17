@@ -1,0 +1,100 @@
+header {
+  width: 100%;
+  grid-area: header;
+ 
+  .header-container {
+    height: 5.62rem;
+    padding: 2rem 1.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 300;
+
+      strong {
+        color: var(--purple-400);
+      }
+    }
+
+    span {
+      color: var(--gray-200);
+    }
+
+    h1 {
+      color: var(--gray-400);
+    }
+
+    .info-wallet-container {
+      display: flex;
+
+      .info-wallet-wrapper {
+        display: flex;
+        height: 5.62rem;
+        align-items: center;
+        li {
+          list-style: none;
+          display: flex;
+          height: 2rem;
+          align-items: center;
+          justify-content: center;
+
+          .icon-wrapper {
+            margin-right: .6rem;
+          }
+
+          .info-wrapper {
+            display: flex;
+            flex-direction: column;
+
+            span {
+              font-size: .5rem;
+              text-transform: uppercase;
+            }
+            h1 {
+              font-size: 1rem;
+            }
+          }
+
+        }
+
+        li + li {
+          margin-left: 2.4rem;
+        }
+      }
+    }
+
+    .my-wallet-button-wrapper {
+      display: flex;
+      align-items: center;
+      margin-left: 1.5rem;
+      cursor: pointer;
+      
+      div {
+        display: flex;
+        align-items: center;
+      }
+
+      .menu {
+        margin-left: 1.5rem;
+        background-color: var(--purple-400);
+        cursor: pointer;
+      }
+    }
+
+    .my-wallet-button {
+      display: flex;
+      flex-direction: column;
+      
+      span {
+        width: 100%;
+        font-size: .8rem;
+      }
+
+      h1 {
+        font-size: 1rem;
+      }
+    }
+  }
+}
