@@ -1,10 +1,10 @@
 <p align="center">
   <img alt="broker-premium" src="https://github.com/GustavoMendes21/broker-premium/blob/main/preview.png">
 </p>
-
-<h1 align="center">
-  <strong style="color: #8A51BA">broker</strong> premium
-</h1>
+  
+<div align="center">
+  <img src="https://github.com/GustavoMendes21/broker-premium/blob/main/public/logo.svg"></img>
+</div>
 
 ## 🧪 Tecnologias
 
