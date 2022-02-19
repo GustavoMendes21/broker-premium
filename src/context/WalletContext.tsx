@@ -65,7 +65,7 @@ export function WalletProvider ({children}: WalletProviderProps) {
   const [walletData, setWalletData] = useState<Wallet>()
 
   useEffect(() => {
-    api.get("").then(response => setWalletData(response.data))
+    api.get("https://raw.githubusercontent.com/GustavoMendes21/broker-premium/main/src/data/db.json").then(response => setWalletData(response.data))
   }, [])
 
   return (
