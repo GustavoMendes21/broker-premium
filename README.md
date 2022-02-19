@@ -6,6 +6,8 @@
   <img src="https://github.com/GustavoMendes21/broker-premium/blob/main/public/logo.svg"></img>
 </div>
 
+<a href="https://broker-premium.netlify.app/" align="center">Link do projeto</a>
+
 ## 🧪 Tecnologias
 
 Esse projeto foi realizado ultilizando as seguintes tecnologias: 
